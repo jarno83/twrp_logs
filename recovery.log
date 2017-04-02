@@ -1,0 +1,520 @@
+I:TUNESD: 2017-04-02_18:01:11 - Started /sbin/tunesd.sh
+I:TUNESD: 2017-04-02_18:01:11 - tuned /sys/devices/soc.0/f98a4900.sdhci/mmc_host/mmc1/mmc1:1234/block/mmcblk1/queue/read_ahead_kb
+I:TUNESD: 2017-04-02_18:01:11 - Value now: <1024>
+I:QSEECOMD: 2017-04-02_18:01:11 - Starting /sbin/createsym.sh
+I:READTIME: 2017-04-02_18:01:11 - Starting /sbin/readtimeprop.sh
+I:QSEECOMD: 2017-04-02_18:01:11 - bootdevice check before actually doing anything: ><
+__bionic_open_tzdata: couldn't find any tzdata when looking for localtime!
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+Starting TWRP 3.1.0-0-76958ae9 on Sun Apr  2 18:01:11 2017
+ (pid 7657)
+BOARD_HAS_NO_REAL_SDCARD := true
+RECOVERY_SDCARD_ON_DATA := true
+TW_NO_USB_STORAGE := true
+TW_INCLUDE_CRYPTO := true
+I:TW_BRIGHTNESS_PATH := /sys/devices/soc.0/fd900000.qcom,mdss_mdp/qcom,mdss_fb_primary.186/leds/lcd-backlight/brightness
+I:Specified brightness file '/sys/devices/soc.0/fd900000.qcom,mdss_mdp/qcom,mdss_fb_primary.186/leds/lcd-backlight/brightness' not found.
+I:Find_File: Error opening '/sys/class/backlight'
+I:Found brightness file at '/sys/class/leds/lcd-backlight/brightness'
+I:Got max brightness 232 from '/sys/class/leds/lcd-backlight/max_brightness'
+I:TWFunc::Set_Brightness: Setting brightness control to 232
+I:LANG: en
+Starting the UI...
+setting DRM_FORMAT_RGBX8888 and GGL_PIXEL_FORMAT_RGBX_8888
+Skipping drm graphics -- not present in build tree
+cannot open fb0 (retrying): No such file or directory
+I:READTIME: 2017-04-02_18:01:11 - timeadjust before setprop: ><
+'/dev/block/bootdevice' -> '/dev/block/platform/f9824900.sdhci'
+I:READTIME: 2017-04-02_18:01:11 - checking /data
+I:QSEECOMD: 2017-04-02_18:01:11 - bootdevice check after fixing the symlink: ><
+I:READTIME: 2017-04-02_18:01:11 - No /data in fstab yet! will wait until its there..
+I:QSEECOMD: 2017-04-02_18:01:11 - /sbin/createsym.sh finished with <1>
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (giving up): No such file or directory
+I:TWFunc::Set_Brightness: Setting brightness control to 232
+I:Loading package: splash (/twres/splash.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/splash.xml' directly
+I:Checking resolution...
+__bionic_open_tzdata: couldn't find any tzdata when looking for localtime!
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+Starting TWRP 3.1.0-0-76958ae9 on Sun Apr  2 18:01:17 2017
+ (pid 7691)
+BOARD_HAS_NO_REAL_SDCARD := true
+RECOVERY_SDCARD_ON_DATA := true
+TW_NO_USB_STORAGE := true
+TW_INCLUDE_CRYPTO := true
+I:TW_BRIGHTNESS_PATH := /sys/devices/soc.0/fd900000.qcom,mdss_mdp/qcom,mdss_fb_primary.186/leds/lcd-backlight/brightness
+I:Specified brightness file '/sys/devices/soc.0/fd900000.qcom,mdss_mdp/qcom,mdss_fb_primary.186/leds/lcd-backlight/brightness' not found.
+I:Find_File: Error opening '/sys/class/backlight'
+I:Found brightness file at '/sys/class/leds/lcd-backlight/brightness'
+I:Got max brightness 232 from '/sys/class/leds/lcd-backlight/max_brightness'
+I:TWFunc::Set_Brightness: Setting brightness control to 232
+I:LANG: en
+Starting the UI...
+setting DRM_FORMAT_RGBX8888 and GGL_PIXEL_FORMAT_RGBX_8888
+Skipping drm graphics -- not present in build tree
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+cannot open fb0 (retrying): No such file or directory
+fb0 reports (possibly inaccurate):
+  vi.bits_per_pixel = 32
+  vi.red.offset   =   0   .length =   8
+  vi.green.offset =   8   .length =   8
+  vi.blue.offset  =  16   .length =   8
+setting GGL_PIXEL_FORMAT_RGBA_8888
+double buffered
+framebuffer: 0 (1080 x 1920)
+Using fbdev graphics.
+TW_SCREEN_BLANK_ON_BOOT := true
+I:TWFunc::Set_Brightness: Setting brightness control to 232
+I:Loading package: splash (/twres/splash.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/splash.xml' directly
+I:Checking resolution...
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page splash
+I:Switching packages (splash)
+=> Linking mtab
+=> Processing recovery.fstab
+I:Processing '/boot'
+I:Processing '/system'
+I:Processing '/system_image'
+I:Processing '/data'
+I:Processing '/cache'
+I:Processing '/recovery'
+I:Processing '/efs1'
+I:Processing '/efs2'
+I:Processing '/external_sd'
+I:Created '/external_sd' folder.
+I:Processing '/usb-otg'
+I:Created '/usb-otg' folder.
+I:Setting up '/data' as data/media emulated storage.
+I:Created '/sdcard' folder.
+I:mount -o bind '/data/media' '/sdcard' process ended with RC=0
+I:mount -o bind '/data/media/0' '/sdcard' process ended with RC=0
+I:Setting up '/data' as data/media emulated storage.
+I:mount -o bind '/data/media' '/sdcard' process ended with RC=0
+I:mount -o bind '/data/media/0' '/sdcard' process ended with RC=0
+I:Backup folder set to '/data/media/0/TWRP/BACKUPS/LGH955dd80fc4d'
+I:Settings storage is '/data/media/0'
+I:Decrypt adopted storage starting
+I:PageManager::LoadFileToBuffer loading filename: '/data/system/storage.xml' directly
+Updating partition details...
+Failed to mount '/system' (Device or resource busy)
+I:Actual block device: '/dev/block/mmcblk0p45', current file system: 'ext4'
+I:READTIME: 2017-04-02_18:01:19 - /data detected: >/dev/block/mmcblk0p48 /data ext4 rw 0 0<
+I:READTIME: 2017-04-02_18:01:19 - skipping mount /data as it is already mounted
+I:READTIME: 2017-04-02_18:01:19 - proprietary qcom time-file detected! Will start qcom time_daemon instead of timekeep!
+I:READTIME: 2017-04-02_18:01:19 - if you feel this is an error you may have switched from STOCK to CM/AOSP without wiping data. Delete /data/system/time/ats_2 or /data/time/ats_2 manually if that is the case
+I:READTIME: 2017-04-02_18:01:19 - timeadjust after setprop: ><
+I:READTIME: 2017-04-02_18:01:19 - /sbin/readtimeprop.sh finished
+I:Data backup size is 4868MB, free: 638MB.
+I:cmd: /sbin/exfat-fuse -o big_writes,max_read=131072,max_write=131072 /dev/block/mmcblk1p1 /external_sd
+__bionic_open_tzdata: couldn't find any tzdata when looking for localtime!
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+I:Unable to mount '/usb-otg'
+I:Actual block device: '', current file system: 'vfat'
+...done
+I:Unmounting main partitions...
+
+
+Partition Logs:
+/boot | /dev/block/mmcblk0p36 | Size: 40MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/mmcblk0p36
+   Display_Name: Boot
+   Storage_Name: boot
+   Backup_Path: /boot
+   Backup_Name: boot
+   Backup_Display_Name: Boot
+   Storage_Path: /boot
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/system | /dev/block/mmcblk0p45 | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_Available_in_GUI IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p45
+   Display_Name: System
+   Storage_Name: System
+   Backup_Path: /system
+   Backup_Name: system
+   Backup_Display_Name: System
+   Storage_Path: /system
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/system_image | /dev/block/mmcblk0p45 | Size: 3584MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/mmcblk0p45
+   Display_Name: System Image
+   Storage_Name: system_image
+   Backup_Path: /system_image
+   Backup_Name: system_image
+   Backup_Display_Name: System Image
+   Storage_Path: /system_image
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/data | /dev/block/mmcblk0p48 | Size: 9124MB Used: 4868MB Free: 638MB Backup Size: 4868MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_During_Factory_Reset Wipe_Available_in_GUI IsPresent Can_Be_Encrypted Has_Data_Media Can_Encrypt_Backup Use_Userdata_Encryption Is_Storage Is_Settings_Storage 
+   Symlink_Path: /data/media/0
+   Symlink_Mount_Point: /sdcard
+   Primary_Block_Device: /dev/block/mmcblk0p48
+   Crypto_Key_Location: /dev/block/bootdevice/by-name/encrypt
+   Display_Name: Data
+   Storage_Name: Internal Storage
+   Backup_Path: /data
+   Backup_Name: data
+   Backup_Display_Name: Data
+   Storage_Path: /data/media/0
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+   MTP_Storage_ID: 65537
+
+/cache | /dev/block/mmcblk0p47 | Size: 1193MB Used: 3MB Free: 1190MB Backup Size: 3MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Can_Be_Backed_Up Wipe_During_Factory_Reset Wipe_Available_in_GUI IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p47
+   Display_Name: Cache
+   Storage_Name: Cache
+   Backup_Path: /cache
+   Backup_Name: cache
+   Backup_Display_Name: Cache
+   Storage_Path: /cache
+   Current_File_System: ext4
+   Fstab_File_System: ext4
+   Backup_Method: files
+
+/recovery | /dev/block/mmcblk0p37 | Size: 40MB
+   Flags: Can_Be_Backed_Up IsPresent Can_Flash_Img 
+   Primary_Block_Device: /dev/block/mmcblk0p37
+   Display_Name: Recovery
+   Storage_Name: recovery
+   Backup_Path: /recovery
+   Backup_Name: recovery
+   Backup_Display_Name: Recovery
+   Storage_Path: /recovery
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/efs1 | /dev/block/mmcblk0p23 | Size: 1MB
+   Flags: Can_Be_Backed_Up Has_SubPartition IsPresent 
+   Primary_Block_Device: /dev/block/mmcblk0p23
+   Display_Name: EFS
+   Storage_Name: EFS
+   Backup_Path: /efs1
+   Backup_Name: efs1
+   Backup_Display_Name: EFS
+   Storage_Path: /efs1
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/efs2 | /dev/block/mmcblk0p24 | Size: 1MB
+   Flags: Can_Be_Backed_Up Is_SubPartition IsPresent 
+   SubPartition_Of: /efs1
+   Primary_Block_Device: /dev/block/mmcblk0p24
+   Display_Name: efs2
+   Storage_Name: efs2
+   Backup_Path: /efs2
+   Backup_Name: efs2
+   Backup_Display_Name: efs2
+   Storage_Path: /efs2
+   Current_File_System: emmc
+   Fstab_File_System: emmc
+   Backup_Method: dd
+
+/external_sd | /dev/block/mmcblk1p1 | Size: 59111MB Used: 9136MB Free: 49974MB Backup Size: 9136MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Wipe_Available_in_GUI Removable IsPresent Is_Storage 
+   Primary_Block_Device: /dev/block/mmcblk1p1
+   Alternate_Block_Device: /dev/block/mmcblk1
+   Display_Name: external_sd
+   Storage_Name: external_sd
+   Backup_Path: /external_sd
+   Backup_Name: external_sd
+   Backup_Display_Name: external_sd
+   Storage_Path: /external_sd
+   Current_File_System: exfat
+   Fstab_File_System: vfat
+   Backup_Method: files
+   MTP_Storage_ID: 65538
+
+/usb-otg |  | Size: 0MB Used: 0MB Free: 0MB Backup Size: 0MB
+   Flags: Can_Be_Mounted Can_Be_Wiped Removable Is_Storage 
+   Primary_Block_Device: /dev/block/sda1
+   Alternate_Block_Device: /dev/block/sda
+   Display_Name: USB-OTG
+   Storage_Name: USB-OTG
+   Backup_Path: /usb-otg
+   Backup_Name: usb-otg
+   Backup_Display_Name: USB-OTG
+   Storage_Path: /usb-otg
+   Current_File_System: vfat
+   Fstab_File_System: vfat
+   Backup_Method: files
+   MTP_Storage_ID: 65539
+
+I:Loading package: TWRP (/data/media/0/TWRP/theme/ui.zip)
+I:Loading zip theme
+I:Loading package: TWRP (/twres/ui.xml)
+I:Load XML directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/uk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/tr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sv.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/sk.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/ru.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pt_BR.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/pl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/nl.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/it.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/hu.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/fr.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/es.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/el.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/de.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/cz.xml' directly
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+parsing languageFile
+parsing languageFile done
+I:PageManager::LoadFileToBuffer loading filename: '/twres/ui.xml' directly
+I:Checking resolution...
+I:Loading resources...
+I:Failed to load image from indeterminate013, error -1
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Including file: /twres/portrait.xml...
+I:PageManager::LoadFileToBuffer loading filename: '/twres/portrait.xml' directly
+I:Loading resources...
+I:Loading variables...
+I:Loading mouse cursor...
+I:Loading pages...
+I:Loading page main
+I:Loading page main2
+I:Loading page install
+I:Loading page flash_confirm
+I:Loading page flash_zip
+I:Loading page flash_done
+I:Loading page flash_sleep_and_reboot
+I:Loading page flashimage_confirm
+I:Loading page clear_vars
+I:Loading page reboot_system_routine
+I:Loading page confirm_action
+I:Loading page action_page
+I:Loading page singleaction_page
+I:Loading page action_complete
+I:Loading page filecheck
+I:Loading page rebootcheck
+I:Loading page appcheck
+I:Loading page wipe
+I:Loading page advancedwipe
+I:Loading page formatdata
+I:Loading page formatdata_confirm
+I:Loading page checkpartitionlist
+I:Loading page partitionoptions
+I:Loading page refreshfilesystem
+I:Loading page selectfilesystem
+I:Loading page backup
+I:Loading page backup_options
+I:Loading page backupname1
+I:Loading page backupname2
+I:Loading page backupencryption
+I:Loading page backupencryption2
+I:Loading page checkbackuppassword
+I:Loading page backup_run
+I:Loading page restore
+I:Unable to open '/data/media/0/TWRP/BACKUPS/LGH955dd80fc4d'
+I:Loading page restore_read
+I:Loading page restore_decrypt
+I:Loading page try_restore_decrypt
+I:Loading page restore_select
+I:Loading page renamebackup
+I:Loading page restore_run
+I:Loading page mount
+I:Loading page usb_mount
+I:Loading page usb_umount
+I:Loading page system_readonly_check
+I:Loading page reboot
+I:Loading page rebootapp
+I:Loading page system_readonly
+I:Loading page settings
+I:Loading page settings_timezone
+I:Loading page settings_screen
+I:Loading page settings_vibration
+I:Loading page settings_language
+I:Loading page copylog
+I:Loading page advanced
+I:Loading page partsdcardsel
+I:Loading page partsdcardcheck
+I:Loading page partsdcard
+I:Loading page htcdumlock
+I:Loading page lock
+I:Loading page filemanagerlist
+I:Loading page filemanageroptions
+I:Loading page choosedestinationfolder
+I:Loading page filemanagerrenamefile
+I:Loading page filemanagerrenamefolder
+I:Loading page filemanagerchmod
+I:Loading page filemanagerconfirm
+I:Loading page filemanageraction
+I:Loading page decrypt
+I:Loading page decrypt_pattern
+I:Loading page trydecrypt
+I:Loading page terminalcommand
+I:Loading page sideload
+I:Loading page fixcontexts
+I:Loading page installsu
+I:Loading page slideout
+I:Loading page select_storage
+I:Loading page select_language
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:Switching packages (TWRP)
+Renaming regular /file_contexts -> /file_contexts.bak
+Moving /prebuilt_file_contexts -> /file_contexts
+SELinux contexts loaded from /file_contexts
+Full SELinux support is present.
+
+no misc device set
+Startup Commands: 
+twrp.crash_counter=1
+I:Copying file /cache/recovery/log to /cache/recovery/last_log
+tw_get_context got selinux context: u:object_r:media_rw_data_file:s0
+I:Got default contexts and file mode for storage files.
+I:Attempt to load settings from settings file...
+I:InfoManager loading from '/data/media/0/TWRP/.twrps'.
+I:Backup folder set to '/external_sd/TWRP/BACKUPS/LGH955dd80fc4d'
+I:Copying file /etc/recovery.fstab to /cache/recovery/recovery.fstab
+I:Version number saved to '/cache/recovery/.version'
+I:cmd: /sbin/exfat-fuse -o big_writes,max_read=131072,max_write=131072 /dev/block/mmcblk1p1 /external_sd
+__bionic_open_tzdata: couldn't find any tzdata when looking for localtime!
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+__bionic_open_tzdata: couldn't find any tzdata when looking for GMT!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+I:Unable to mount '/usb-otg'
+I:Actual block device: '', current file system: 'vfat'
+__bionic_open_tzdata: couldn't find any tzdata when looking for CST6CDT,M3.2.0,M11.1.0!
+__bionic_open_tzdata: couldn't find any tzdata when looking for posixrules!
+I:TWFunc::Set_Brightness: Setting brightness control to 255
+I:PageManager::LoadFileToBuffer loading filename: '/twres/languages/en.xml' directly
+parsing languageFile
+parsing languageFile done
+I:Translating partition display names
+I:Backup folder set to '/external_sd/TWRP/BACKUPS/LGH955dd80fc4d'
+I:TWRP crashed; disabling MTP as a precaution.
+I:Unable to mount '/system'
+I:Actual block device: '/dev/block/mmcblk0p45', current file system: 'ext4'
+I:Check_Lifetime_Writes failed to mount '/system'
+I:Switching packages (TWRP)
+I:Set page: 'main'
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:Set page: 'mount'
+I:Set page: 'main'
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:Set page: 'restore'
+I:Set page: 'restore_read'
+I:Set page: 'restore_select'
+I:Set page: 'restore_run'
+I:operation_start: 'Nandroid'
+[RESTORE STARTED]
+Restore folder: '/external_sd/TWRP/BACKUPS/LGH955dd80fc4d/2017-04-02--07-47-29_LMY47S'
+Skipping MD5 check based on user setting.
+Calculating restore details...
+I:InfoManager loading from '/external_sd/TWRP/BACKUPS/LGH955dd80fc4d/2017-04-02--07-47-29_LMY47S/system.info'.
+I:Read info file, restore size is 2959836160
+Restoring 1 partitions...
+Total restore size is 2822MB
+I:Restore filename is: /external_sd/TWRP/BACKUPS/LGH955dd80fc4d/2017-04-02--07-47-29_LMY47S/system.ext4.win
+I:Restore file system is: 'ext4'.
+I:Restore file system is: 'ext4'.
+Wiping System
+Formatting System using make_ext4fs...
+Creating filesystem with parameters:
+    Size: 3758096384
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 8192
+    Inode size: 256
+    Journal blocks: 14336
+    Label: 
+    Blocks: 917504
+    Block groups: 28
+    Reserved block group size: 223
+Created filesystem with 11/229376 inodes and 30531/917504 blocks
+warning: wipe_block_device: Wipe via secure discard failed, used discard instead
+
+Restoring System...
+Failed to mount '/system' (Device or resource busy)
+I:Actual block device: '/dev/block/mmcblk0p45', current file system: 'ext4'
+I:Set page: 'action_complete'
+I:operation_end - status=1
+I:Set page: 'clear_vars'
+I:Set page: 'restore_select'
+I:Set page: 'restore'
+I:Set page: 'main'
+I:Set page: 'clear_vars'
+I:Set page: 'main2'
+I:Set page: 'advanced'
+I:Set page: 'filemanagerlist'
+I:Set page: 'filemanageroptions'
+I:Set page: 'filemanagerconfirm'
+I:Set page: 'filemanageraction'
+I:operation_start: 'Command'
+I:Running command: 'rm -rf "/external_sd/dmesg.log"'
+I:rm -rf "/external_sd/dmesg.log" process ended with RC=0
+I:Set page: 'action_complete'
+I:operation_end - status=0
+I:Set page: 'clear_vars'
+I:Set page: 'filemanagerlist'
+I:Set page: 'filemanageroptions'
+I:Set page: 'filemanagerconfirm'
+I:Set page: 'filemanageraction'
+I:operation_start: 'Command'
+I:Running command: 'rm -rf "/external_sd/recovery.log"'
+I:rm -rf "/external_sd/recovery.log" process ended with RC=0
+I:Set page: 'action_complete'
+I:operation_end - status=0
+I:Set page: 'clear_vars'
+I:Set page: 'filemanagerlist'
+I:Set page: 'advanced'
+I:Set page: 'copylog'
+I:Set page: 'action_page'
+I:operation_start: 'Copy Log'
+I:Copying file /tmp/recovery.log to /external_sd/recovery.log
